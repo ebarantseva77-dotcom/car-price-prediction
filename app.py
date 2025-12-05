@@ -11,12 +11,14 @@ with open("best_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 with open("scaler.pkl", "rb") as f:
+
     scaler = pickle.load(f)
 
 with open("ohe.pkl", "rb") as f:
     ohe = pickle.load(f)
 
 with open("columns.json", "r") as f:
+
     final_columns = json.load(f)
 
 
